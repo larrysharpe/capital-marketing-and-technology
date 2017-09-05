@@ -59,7 +59,7 @@ body {
   margin-bottom: 40px;
 }
 .mb-50 {
-  margin-bottom: 50pxs;
+  margin-bottom: 50px;
 }
 h1,
 h2,
@@ -97,7 +97,7 @@ a:focus {
 .btn,
 button {
   padding: 7px 30px;
-  border-radius: 0px;
+  border-radius: 0;
   font-weight: 400;
   color: #fff;
   font-size: 13px;
@@ -110,7 +110,7 @@ button {
 .btn:hover,
 button:hover {
   color: #fff;
-  carsoer: pointer;
+  cursor: pointer;
 }
 .section {
   padding: 80px 0;
@@ -139,7 +139,7 @@ button:hover {
   transition: all 0.2s linear;
 }
 .btn-radius:before {
-  border-radius: 5px 0px 0px 5px; 
+  border-radius: 5px 0 0 5px; 
 }
 .btn-round {
   border-radius: 1.5em;
@@ -335,7 +335,7 @@ i:hover {
   height: 36px;
   line-height: 36px;
   color: #fff;
-  border-radius: 0px;
+  border-radius: 0;
   text-align: center;
   
   transition: all 0.2s ease-in-out;
@@ -407,20 +407,20 @@ i:hover {
   color: #292929;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  margin-top: 0px;
+  margin-top: 0;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: bold;
 }
 .switcher-box .colors-list {
-  margin: 0px 0px 0px -4px;
+  margin: 0 0 0 -4px;
 }
 .switcher-box .colors-list li {
   display: inline-block;
-  font-size: 0px;
+  font-size: 0;
   list-style: none;
-  margin: 0px 4px;
+  margin: 0 4px;
 }
 .switcher-box .colors-list li a {
   width: 25px;
@@ -463,9 +463,9 @@ i:hover {
   right: -50px;
   top: -1px;
   width: 50px;
-  border-radius: 0px;
-  border: 0px none;
-  padding: 0px;
+  border-radius: 0;
+  border: 0 none;
+  padding: 0;
   height: 50px;
   background: #DDD;
 }
@@ -480,8 +480,8 @@ i:hover {
 .switcher-massage {
   font-size: 12px;
   line-height: 15px;
-  color: 808080;
-  margin: 10px 0px 0px;
+  color: #808080;
+  margin: 10px 0 0;
 }
 #loader {
   position: fixed;
@@ -589,13 +589,13 @@ i:hover {
 }
 #carousel-area .carousel-control-next-icon {
   right: 5%;
-  background-position: -150px 0px !important;
+  background-position: -150px 0 !important;
 }
 #carousel-area .carousel-indicators {
   bottom: 5px;
 }
 #carousel-area .carousel-indicators li {
-  border-radius: 0px;
+  border-radius: 0;
   width: 32px;
   height: 5px;
   margin: 0 5px;
@@ -664,7 +664,7 @@ i:hover {
 }
 .navbar-brand {
   width: 130px;
-  padding-top: 0px;
+  padding-top: 0;
   height: auto;
 }
 .navbar-engage {
@@ -676,7 +676,7 @@ i:hover {
 .navbar-engage .navbar-nav > li > a:focus {
   font-size: 14px;
   padding: 28px 20px;
-  margin: 0px;
+  margin: 0;
   outline: 0;
   color: #666;
   font-weight: 400;
@@ -691,7 +691,7 @@ i:hover {
 .navbar-engage .navbar-nav > li > a:before {
   content: "";
   display: inline-block;
-  width: 0px;
+  width: 0;
   height: 1px;
   position: absolute;
   left: 1px;
@@ -818,10 +818,10 @@ i:hover {
   animation-name: fadeInUpMenu;
 }
 .navbar {
-  padding: 0px;
+  padding: 0;
 }
 .nav-inline .nav-item + .nav-item {
-  margin-left: 0px;
+  margin-left: 0;
 
 }
 
@@ -846,7 +846,7 @@ i:hover {
   border-radius: 0;
   left: 0;
   right: 0;
-  margin-top: 0px;
+  margin-top: 0;
   width: 220px;
   border: none;
   box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -1213,7 +1213,7 @@ cursor: pointer;
 .sup-desc-wrap .sup-link .left-link,
 .sup-desc-wrap .sup-link .right-link {
   font-size: 14px;
-  line-height: normal;
+  /*line-height: normal;*/
   outline: none;
   
   border-radius: 50%;
@@ -1348,7 +1348,7 @@ cursor: pointer;
   
 }
 #other-services .tab-content {
-  margin: 10px 0px 0px 80px;
+  margin: 10px 0 0 80px;
 }
 #other-services .service-content h3 {
   font-size: 20px;
@@ -1394,7 +1394,7 @@ cursor: pointer;
   clear: inherit;
 }
 #other-services .other-service-item .service-content p {
-  padding: 0px 36px 0px 0px;
+  padding: 0 36px 0 0;
 }
 #other-services .other-service-item:hover .icon-medium {
   -webkit-transform: rotateY(360deg);
@@ -1525,7 +1525,7 @@ cursor: pointer;
   width: 100%;
   height: 100%;
   background-color:rgba(0, 0, 0, 0.4);
-  background-image: url(http://demo.graygrids.com/themes/engage/assets/video/Team-Work.jpg);
+  background-image: url(../video/Team-Work.jpg);
 }
 #cool-facts .section-title {
   color: #fff;
@@ -1628,7 +1628,7 @@ cursor: pointer;
   height: 70px;
   margin: 0 auto;
   padding: 5px;
-  box-shadow: 0px 0px 3px #ddd;
+  box-shadow: 0 0 3px #ddd;
 }
 #testimonial .testimonial-content p {
   line-height: 25px;
@@ -1698,7 +1698,7 @@ cursor: pointer;
   
 }
 #blog .blog-item-text .blog-one-footer {
-  padding: 10px 0px 0px;
+  padding: 10px 0 0;
   border-top: 1px dashed #ddd;
 }
 #blog .blog-item-text .blog-one-footer a {
@@ -1753,7 +1753,7 @@ cursor: pointer;
 #team .team-item figure figcaption .orange-line {
   
   margin: 12px auto 6px;
-  width: 0px;
+  width: 0;
   height: 1px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -1781,7 +1781,7 @@ cursor: pointer;
 #team .team-item .social .twitter,
 #team .team-item .social .google-plus {
   font-size: 14px;
-  line-height: normal;
+  /*line-height: normal;*/
   outline: none;
   
   border-radius: 50%;
@@ -2032,7 +2032,7 @@ footer .plain-flicker-gallery {
 footer .plain-flicker-gallery a {
   display: inline-block;
   width: 32%;
-  font-size: 0px;
+  font-size: 0;
   padding: 5px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -2050,7 +2050,7 @@ footer .contact-us .form-control {
   color: #999;
   font-size: 14px;
   background: #1D1D1D;
-  border-radius: 0px;
+  border-radius: 0;
   border: 1px solid transparent;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -2081,7 +2081,7 @@ footer #copyright .nav-inline {
       font-size: 9pt;
       display: inline-block;
       float: left;
-      margin: 0px 10px 10px 0px;
+      margin: 0 10px 10px 0;
       padding: 2px 10px;
       background: #666;
       border-radius: 30px;
@@ -2138,7 +2138,7 @@ footer #copyright .nav-inline {
   padding: 15px;
 }
 #accordionRound .panel-default .panel-heading a {
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0 0;
 }
 .panel-transparent .panel-heading a {
   background: #F5F5F5;
@@ -2217,7 +2217,7 @@ ul.nav-tabs li a {
 }
 #vertical-tab ul.nav-tabs {
   border: 1px solid #b9b9b9 !important;  
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 #vertical-tab .nav-tabs li {
@@ -2279,7 +2279,7 @@ ul.nav-tabs li a {
   font-size: 25px;
   height: 70px;
   line-height: 70px;
-  margin: 0px 0 20px;
+  margin: 0 0 20px;
   text-align: center;
   transition: all 0.5s ease 0s;
   width: 70px;
@@ -2772,7 +2772,7 @@ h2.widget-title {
   text-transform: capitalize;  
 }
 .nav-link{
-  padding: 0px;
+  padding: 0;
 }
 .testimonial-footer .fa {
     padding-right: 6px;
