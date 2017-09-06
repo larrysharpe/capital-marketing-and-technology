@@ -197,6 +197,9 @@ $('a[data-slide="next"]').click(function () {
           delay: 1,
           time: 800
       });
+
+      $( "p:contains('Powered by WHMCompleteSolution')" ).remove(); //Remove WHMCS Tag
+
   });
 
 // Progress Bar
@@ -228,3 +231,4 @@ $('.skill-shortcode').appear(function() {
     }, 600);
     return false;
   })
+
