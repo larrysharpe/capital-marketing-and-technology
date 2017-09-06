@@ -70,7 +70,7 @@
                         </liner>
                         <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
                             <li class="slicknav_collapsed slicknav_parent">
-                                <a href="./contact.html" tabindex="-1">Contact Us</a>
+                                <a href="#contact-us" tabindex="-1">Contact Us</a>
                             </li>
                             <li class="slicknav_collapsed slicknav_parent">
                                 <a href="./login.html" tabindex="-1">Login</a>
@@ -79,16 +79,34 @@
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation"></button>
                     <a class="navbar-brand" href="./">
-                        <img src="templates/{$template}/assets/img/Capital-Mark-Logo.png" alt="">
+                        <img src="./assets/img/Capital-Mark-Logo.png" alt="">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse justify-content-end" id="main-menu">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="./login.html">Login</a>
+                        <li class="dropdown">
+                            <a class="nav-link" href="#">Login</a>
+                            <ul class="dropdown-menu dropdown-menu-right mt-1">
+                                <li class="dropdown-item pt-2">
+                                    <form class="form" role="form">
+                                        <div class="form-group">
+                                            <input id="emailInput" placeholder="Email" class="form-control form-control-sm" type="text" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="passwordInput" placeholder="Password" class="form-control form-control-sm" type="text" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                        </div>
+                                        <div class="form-group text-xs-center">
+                                            <small><a href="#">Forgot password?</a></small>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -96,7 +114,7 @@
                 <!-- Mobile Menu Start -->
                 <ul class="wpb-mobile-menu">
                     <li>
-                        <a href="./contact.html">Contact Us</a>
+                        <a href="#contact-us">Contact Us</a>
                     </li>
                     <li>
                         <a href="./login.html">Login</a>
