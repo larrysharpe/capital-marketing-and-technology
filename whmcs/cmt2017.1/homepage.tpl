@@ -4,7 +4,7 @@
     <div id="carousel-slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active scheme-1">
-                <img src="{templates/{$template}/assets/img/slider/bg-4.jpg" alt="">
+                <img src="templates/{$template}/assets/img/slider/bg-4.jpg" alt="">
                 <div class="carousel-caption">
                     <h2>
                         Get WordPress The Max Deal!
@@ -400,7 +400,7 @@
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInLeft animated" data-wow-delay=".3s" style="visibility: visible;-webkit-animation-delay: .3s; -moz-animation-delay: .3s; animation-delay: .3s;">
                 <div class="images">
-                    <img src="{templates/{$template}/assets/img/about/plain-why-choose-us-2.png" alt="">
+                    <img src="templates/{$template}/assets/img/about/plain-why-choose-us-2.png" alt="">
                 </div>
             </div>
             <div class="col-md-8 col-sm-6 col-xs-12 wow animated fadeInRight animated" data-wow-delay=".3s" style="visibility: visible;-webkit-animation-delay: .3s; -moz-animation-delay: .3s; animation-delay: .3s;">

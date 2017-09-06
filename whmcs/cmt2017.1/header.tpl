@@ -79,7 +79,7 @@
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation"></button>
                     <a class="navbar-brand" href="./">
-                        <img src="{templates/{$template}/assets/img/Capital-Mark-Logo.png" alt="">
+                        <img src="templates/{$template}/assets/img/Capital-Mark-Logo.png" alt="">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse justify-content-end" id="main-menu">
