@@ -50,3 +50,61 @@
 <body>
 
     {$headeroutput}
+
+
+    <!-- Header area wrapper starts -->
+    <header id="header-wrap">
+        <div class="container">
+            <!-- Navbar Starts -->
+            <nav class="navbar navbar-toggleable-sm navbar-light">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div class="slicknav_menu">
+                        <liner aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;">
+                            <span class="slicknav_menutxt"></span>
+                        <span class="slicknav_icon slicknav_no-text">
+                            <span class="slicknav_icon-bar"></span>
+                            <span class="slicknav_icon-bar"></span>
+                            <span class="slicknav_icon-bar"></span>
+                        </span>
+                        </liner>
+                        <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <li class="slicknav_collapsed slicknav_parent">
+                                <a href="./contact.html" tabindex="-1">Contact Us</a>
+                            </li>
+                            <li class="slicknav_collapsed slicknav_parent">
+                                <a href="./login.html" tabindex="-1">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation"></button>
+                    <a class="navbar-brand" href="./">
+                        <img src="./assets/img/Capital-Mark-Logo.png" alt="">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="main-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mobile Menu Start -->
+                <ul class="wpb-mobile-menu">
+                    <li>
+                        <a href="./contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="./login.html">Login</a>
+                    </li>
+                </ul>
+                <!-- Mobile Menu End -->
+
+            </nav>
+        </div>
+    </header>
+    <!-- Header-wrap Section End -->
