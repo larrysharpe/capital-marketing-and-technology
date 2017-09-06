@@ -1,0 +1,92 @@
+.great-features-box ul {
+    margin-top: -3px;
+    padding: 0
+}
+.services-box.great-features-box {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.great-features-box ul li h3 {
+    transition: 0.8s all;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.great-features-box {
+    display: block;
+}
+.great-features-box ul li span {
+    display: block;
+    text-align: center;
+    border: 1px solid #474747;
+    height: 101px;
+    width: 101px;
+    margin: 0 auto;
+    transition: 0.8s all;
+    position: relative;
+}
+.great-features-box ul li span i {
+    display: block;
+    transition: 0.5s all;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 55px;
+    height: 56px;
+    font-size: 60px;
+}
+.great-features-box ul li span i.map-marker {
+    background: url(images/location.png) no-repeat center top;
+}
+.great-features-box ul li span i.phone {
+    background: url(images/phone.png) no-repeat center top;
+}
+.great-features-box ul li span i.fax {
+    background: url(images/fax.png) no-repeat center top;
+    height: 52px;
+}
+.great-features-box ul li:hover span i.envelope {
+    background-position: 0 -55px;
+}
+.great-features-box ul li span i.envelope {
+    background: url(images/email.png) no-repeat center top;
+    height: 45px;
+}
+.great-features-box ul li:hover span i.envelope {
+    background-position: 0 -45px;
+}
+.great-features-box ul li:hover span {
+    background: #CA2027;
+    border: 1px solid #CA2027;
+    -moz-transform: skew(-20deg, 0deg);
+    -webkit-transform: skew(-20deg, 0deg);
+    -o-transform: skew(-20deg, 0deg);
+    -ms-transform: skew(-20deg, 0deg);
+    transform: skew(-20deg, 0deg);
+}
+.great-features-box ul li:hover span i.map-marker {
+    background-position: 0 -54px
+}
+.great-features-box ul li:hover span i {
+    color: #fff;
+    -moz-transform: skew(20deg, 0deg);
+    -webkit-transform: skew(20deg, 0deg);
+    -o-transform: skew(20deg, 0deg);
+    -ms-transform: skew(20deg, 0deg);
+    transform: skew(20deg, 0deg);
+    background-position: 0 -55px;
+}
+.great-features-box ul li:hover h3 {
+    color: #CA2027;
+}
+.services-box p:first-child {
+    margin-bottom: 40px;
+}
+
+
+#carousel-slider .feature-list {
+    margin-top: 45px;
+}

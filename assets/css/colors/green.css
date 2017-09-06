@@ -164,7 +164,7 @@ a:hover{
 	background: #1C2742;
 }
 .pricing-table-x .plan .price{
-	color: #1C2742;
+    color: rgba(153, 204, 51, 0.7);
 }
 .pricing-table-x .plan .period{
 	color: rgba(153, 204, 51, 0.7);
@@ -361,6 +361,13 @@ h2.widget-title {
 .form-control:focus {
   border-color: #1C2742  ;
 }
+.btn-alt {
+  background: #CA2027 none repeat scroll 0 0;
+}
+.btn-alt::before {
+  background: #1C2742 none repeat scroll 0 0;
+}
+
 .btn-common {
   background: #1C2742 none repeat scroll 0 0;
 }
@@ -372,6 +379,12 @@ h2.widget-title {
 }
 #carousel-area .carousel-item .carousel-caption {
   color: #1C2742;
+}
+#carousel-area .carousel-item.scheme-1 h2{
+  color: #fff;
+}
+#carousel-area .carousel-item.scheme-1 h3{
+  color: #fff;
 }
 .top_search_icon{
   color: #1C2742;
