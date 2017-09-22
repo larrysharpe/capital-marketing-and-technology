@@ -39,39 +39,12 @@
 </head>
 <body>
 
-<!-- Header area wrapper starts -->
-<header id="header-wrap">
-    <div class="container">
-        <!-- Navbar Starts -->
-        <nav class="navbar navbar-toggleable-sm navbar-light">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <div class="slicknav_menu">
-                    <liner aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;">
-                        <span class="slicknav_menutxt"></span>
-                        <span class="slicknav_icon slicknav_no-text">
-                            <span class="slicknav_icon-bar"></span>
-                            <span class="slicknav_icon-bar"></span>
-                            <span class="slicknav_icon-bar"></span>
-                        </span>
-                    </liner>
-                    <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
-                        <li class="slicknav_collapsed slicknav_parent">
-                            <a href="#contact-us" tabindex="-1">Contact Us</a>
-                        </li>
-                        <li class="slicknav_collapsed slicknav_parent">
-                            <a href="./login.html" tabindex="-1">Login</a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation"></button>
-                <img src="./assets/img/Capital-Mark-Logo.png" alt="">
-            </div>
-
-        </nav>
-    </div>
-</header>
-<!-- Header-wrap Section End -->
+<div class="container">
+    <p class="display-4 text-center">
+        <img src="./assets/img/Capital-Mark-Logo.png" alt=""><br>
+        http://capital-mark.com
+    </p>
+</div>
 
 <!-- Main Carousel Section -->
 <div id="carousel-area">
@@ -134,19 +107,18 @@
 
                     <div class="row text-white">
                         <div class="col-sm-3 offset-sm-3">
-                            One Time Upfront Price:<br>
+                            One Time Upfront Price:<br><br>
                             <span class="display-3 text-success">$499<sup>.99</sup></span> <br>
-                            <a class="btn btn-warning btn-lg " href="#">
-                                Get Started!
-                            </a>
                         </div>
                         <div class="col-3">
-                            Or Three Payments:<br> (tot: $749.97)
+                            Or Three Payments:<br>
+                            <small class="text-muted">(Total: $749<sup>.97</sup>)</small><br>
                             <span class="display-3 text-success">$249<sup>.99</sup></span> <br>
-                            <a class="btn btn-warning btn-lg " href="#">
-                                Get Started!
-                            </a>
                         </div>
+                    </div>
+                    <div class="text-center text-white">
+                        <p class="display-4 mt-5">Visit https://goo.gl/aKQpt3</p>
+                        <p class="display-4">Or Respond To This Ad</p>
                     </div>
                 </div>
             </div>
@@ -305,42 +277,6 @@
     <section class="contact2-section section" id="contact-us">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 wow bounceInLeft" data-wow-delay="0.3s">
-                    <h1 class="section-title">GET IN CONTACT</h1>
-                    <form method="post" role="form" class="mt-30 shake" id="contactForm" name="contact-form" data-toggle="validator">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name" class="sr-only">Name</label>
-                                    <input type="text" placeholder="Your Name" id="name" class="form-control contact-control" name="name" required data-error="Please enter your name">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="email" class="sr-only">Email</label>
-                                    <input type="email" placeholder="Your Email" id="email" class="form-control contact-control" name="email" required data-error="Please enter your Email">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="subject" class="sr-only">Subject</label>
-                                    <input type="text" placeholder="Your Subject" id="msg_subject" class="form-control contact-control" name="subject" required data-error="Please enter your message subject">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="message" class="sr-only">Message</label>
-                                    <textarea placeholder="Your Message" rows="7" id="message" class="form-control" name="message" required data-error="Write your message"></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group col-xs-12">
-                            <button class="btn btn-common btn-lg btn-block" name="submit" id="form-submit" type="submit"><i class="fa fa-envelope"></i> Submit</button>
-                        </div>
-                    </form>
-                </div>
 
                 <div class="col-md-4 clearfix wow bounceInRight" data-wow-delay="0.4s">
                     <div class="contact-info2 mt-30">
@@ -383,12 +319,6 @@
 
 </footer>
 <!-- Footer Section End-->
-
-<!-- Go To Top Link -->
-<a href="#" class="back-to-top" style="display: none;">
-    <i class="fa fa-angle-up">
-    </i>
-</a>
 
 <!-- JavaScript & jQuery Plugins -->
 <script src="assets/js/jquery-min.js"></script>
